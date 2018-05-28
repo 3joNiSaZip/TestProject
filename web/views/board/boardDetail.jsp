@@ -126,7 +126,7 @@
          		<% } } %>
          	</table>
          </div>
-   
+   <!-- yechan... -->
       <div class="replyWriteArea">
       	<form action="<%= request.getContextPath() %>/insertComment.bo" method="post">
       		<input type="hidden" name="writer" value="<%=m.getUserId()%>"/>
